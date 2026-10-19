@@ -26,3 +26,4 @@ vivado/*.str
 vivado/webtalk*
 _to_delete/
 vivado/vec_path.vh
+vivado/*.os
