@@ -1,0 +1,26 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+# cached intermediate data (re-created by the scripts)
+results/cache/
+# synthetic results are never reported
+results/*synthetic*
+# simulator output
+sim/xsim.dir/
+sim/*.pb
+sim/*.wdb
+sim/*.jou
+sim/*.log
+sim/*.vvp
+sim/log_*.txt
+sim/webtalk*
+sim/.Xil/
+# Vivado project and run output
+vivado/neuroedge/
+vivado/.Xil/
+vivado/*.jou
+vivado/*.log
+vivado/*.str
+vivado/webtalk*
